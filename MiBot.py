@@ -40,7 +40,7 @@ def change_contact(name, phone):
 def phone_contact(name):
     result = ' '
     phone = contacts.get(name, "Contact not found.")
-    return f"{name} : {phone}\n"
+    return f"{name.capitalize()} : {phone}\n"
 
 
 @input_error
